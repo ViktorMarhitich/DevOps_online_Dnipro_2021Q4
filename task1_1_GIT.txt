@@ -1,0 +1,18 @@
+c19f624 (HEAD -> main, origin/main, origin/develop, origin/HEAD, develop) HEAD@{0}: merge develop: Fast-forward
+5e315e9 HEAD@{1}: checkout: moving from develop to main
+c19f624 (HEAD -> main, origin/main, origin/develop, origin/HEAD, develop) HEAD@{2}: commit (merge): Merged conflict
+8b70dc2 HEAD@{3}: commit: conflict
+d11cc15 (origin/images, images) HEAD@{4}: reset: moving to HEAD
+d11cc15 (origin/images, images) HEAD@{5}: merge images: Fast-forward
+fa0d354 HEAD@{6}: checkout: moving from styles to develop
+091899b (origin/styles, styles) HEAD@{7}: commit: index.html with css
+9343bd5 HEAD@{8}: commit: add styles folder and styles.css
+fa0d354 HEAD@{9}: checkout: moving from develop to styles
+fa0d354 HEAD@{10}: checkout: moving from images to develop
+d11cc15 (origin/images, images) HEAD@{11}: commit: change index.html
+0b040a2 HEAD@{12}: commit: add folder images and put image to it
+fa0d354 HEAD@{13}: checkout: moving from develop to images
+fa0d354 HEAD@{14}: commit: Add index.html
+5e315e9 HEAD@{15}: checkout: moving from main to develop
+5e315e9 HEAD@{16}: commit: Create readme.txt
+7d65d3d HEAD@{17}: clone: from git@github.com:ViktorMarhitich/DevOps_online_Dnipro_2021Q4.git
