@@ -12,3 +12,8 @@
 ![LightSail_Linux](https://user-images.githubusercontent.com/28758745/140947646-de01499a-a4a6-4149-9bc0-e3e60f57b449.jpg)
 ![Upload_S3_Bucket](https://user-images.githubusercontent.com/28758745/140947648-15fbefd9-3ec9-4d51-9528-b4b217a15e79.jpg)
 ![WP_LightSail_1](https://user-images.githubusercontent.com/28758745/140947650-068d4313-7b2e-4e67-8503-0e5ca8f0fafe.jpg)
+
+
+
+/-----------------------------------------------/------------------------------------------------/
+http://marexample.com.s3-website.eu-central-1.amazonaws.com/
