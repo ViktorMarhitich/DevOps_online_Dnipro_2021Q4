@@ -1,0 +1,6 @@
+![](https://raw.githubusercontent.com/ViktorMarhitich/DevOps_online_Dnipro_2021Q4/main/m3/task_3.3/images/home_router.jpg)
+![](https://raw.githubusercontent.com/ViktorMarhitich/DevOps_online_Dnipro_2021Q4/main/m3/task_3.3/images/isp1_route.jpg)
+![](https://raw.githubusercontent.com/ViktorMarhitich/DevOps_online_Dnipro_2021Q4/main/m3/task_3.3/images/isp2_route.jpg)
+![](https://raw.githubusercontent.com/ViktorMarhitich/DevOps_online_Dnipro_2021Q4/main/m3/task_3.3/images/isp3_route.jpg)
+![](https://raw.githubusercontent.com/ViktorMarhitich/DevOps_online_Dnipro_2021Q4/main/m3/task_3.3/images/tracert_RIP.jpg)
+![](https://raw.githubusercontent.com/ViktorMarhitich/DevOps_online_Dnipro_2021Q4/main/m3/task_3.3/images/tracert_static_route.jpg)
