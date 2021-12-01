@@ -13,28 +13,39 @@ etc/passwd
  viktor,35,,0663423619 | userID info (GEKOS) 
  /home/viktor | user home directory 
  /bin/bash | command/shell 
+
 etc/group
+
 `adm:x:4:syslog,viktor`
+
  Value | Meaning
  ------ | ------
  adm | group name
  x | password
  4 | groupID (GID)
  syslog,viktor | group list: It is a list of user names of users who are members of the group. The user names, must be separated by commas
+
 Pseudo user (UID 1-499)
+
 Pseudo users are related to system and program services
     Any Linux system has these pseudo users by default
     Mail news games, Apache FTP, MySQL and sshd are related to the process of Linux system
     Pseudo users usually do not need or cannot log in to the system
     There can be no host directory
+
 ![](https://raw.githubusercontent.com/ViktorMarhitich/DevOps_online_Dnipro_2021Q4/main/m5/task_5.2/images/etc_passwd.png)
 ![](https://raw.githubusercontent.com/ViktorMarhitich/DevOps_online_Dnipro_2021Q4/main/m5/task_5.2/images/etc_group.png)
+
 2) What are the uid ranges? What is UID? How to define it?
+
 UID stands for user identifier. A UID is a number assigned to each Linux user. It is the user’s representation in the Linux kernel. The UID is used for identifying the user within the system and for determining which system resources the user can access.
+
 - Superuser (root uid = 0)
 - General user (UID 500-60000)
 - Pseudo user (UID 1-499)
+
 The id command in Linux will display the UID, GID and groups your current user belongs to
+
 ![](https://raw.githubusercontent.com/ViktorMarhitich/DevOps_online_Dnipro_2021Q4/main/m5/task_5.2/images/id.png)
 3) What is GID? How to define it?
 Groups in Linux are defined by GIDs (group IDs):
