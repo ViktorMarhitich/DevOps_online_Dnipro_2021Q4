@@ -1,9 +1,9 @@
 1) Analyze the structure of the /etc/passwd and /etc/group file, what fields are present in it, what users exist on the system? Specify several pseudo-users, how to define them?
 
 etc/passwd
-'''sh
-viktor:x:1000:1000:viktor,35,,0663423619:/home/viktor:/bin/bash
-'''
+
+`viktor:x:1000:1000:viktor,35,,0663423619:/home/viktor:/bin/bash`
+
 | ------ | ------|
 | viktor | username |
 | x | password |
