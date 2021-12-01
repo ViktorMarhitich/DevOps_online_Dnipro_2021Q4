@@ -3,7 +3,7 @@
 etc/passwd
 
 `viktor:x:1000:1000:viktor,35,,0663423619:/home/viktor:/bin/bash`
-
+ Value | Meaning
  ------ | ------
  viktor | username 
  x | password 
