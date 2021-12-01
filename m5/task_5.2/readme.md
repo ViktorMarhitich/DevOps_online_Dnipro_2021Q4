@@ -3,14 +3,14 @@
 etc/passwd
 
 viktor:x:1000:1000:viktor,35,,0663423619:/home/viktor:/bin/bash
-
-viktor                - username
-x                     - password
-1000                  - userID
-1000                  - groupID
-viktor,35,,0663423619 - userID info (GEKOS)
-/home/viktor          - user home directory
-/bin/bash             - command/shell
+| ------ | ------|
+| viktor | username |
+| x | password |
+| 1000 | userID |
+| 1000 | groupID |
+| viktor,35,,0663423619 | userID info (GEKOS) |
+| /home/viktor | user home directory |
+| /bin/bash | command/shell |
 
 etc/group
 
