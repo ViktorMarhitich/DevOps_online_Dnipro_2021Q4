@@ -202,6 +202,7 @@ When a file is created, the permission flags are set according to the file mode 
 - The sticky bit was initially introduced to ‘stick’ an executable program’s text segment in the swap space even after the program has completed execution, to speed up the subsequent runs of the same program. However, these days the sticky bit means something entirely different.
 
 - When a directory has the sticky bit set, its files can be deleted or renamed only by the file owner, directory owner and the root user.
+    ```sh
     mkdir allAccess
     chmod 777 allAccess/
     cd allAccess
@@ -225,12 +226,13 @@ When a file is created, the permission flags are set according to the file mode 
     chmod +t allAccess/
     su guest
     mv /home/viktor/allAccess/file2.txt /home/viktor/allAccess/file3.txt
-
+    ```
 ![](https://raw.githubusercontent.com/ViktorMarhitich/DevOps_online_Dnipro_2021Q4/main/m5/task_5.1/images/bity_stick.png)
 
 17) What file attributes should be present in the command script?
 
 - The files and directories can have following attributes:
+
  Value | Meaning
  ------ | ------
  a | append only
@@ -247,6 +249,6 @@ When a file is created, the permission flags are set according to the file mode 
  S | synchronous updates
  T | top of directory hierarchy
 
-    lsattr
+`lsattr`
 
 ![](https://raw.githubusercontent.com/ViktorMarhitich/DevOps_online_Dnipro_2021Q4/main/m5/task_5.1/images/attributes.png)
