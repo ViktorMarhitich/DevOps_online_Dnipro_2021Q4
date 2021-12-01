@@ -47,13 +47,19 @@ UID stands for user identifier. A UID is a number assigned to each Linux user. I
 The id command in Linux will display the UID, GID and groups your current user belongs to
 
 ![](https://raw.githubusercontent.com/ViktorMarhitich/DevOps_online_Dnipro_2021Q4/main/m5/task_5.2/images/id.png)
+
 3) What is GID? How to define it?
+
 Groups in Linux are defined by GIDs (group IDs):
+
 - GID 0 (zero) is reserved for the root group.
 - GID 1–99 are reserved for the system and application use.
 - GID 100+ allocated for the user’s group.
+
     `cat /etc/group | grep adm`
+
 ![](https://raw.githubusercontent.com/ViktorMarhitich/DevOps_online_Dnipro_2021Q4/main/m5/task_5.2/images/group_find.png)
+
 4) How to determine belonging of user to the specific group? 
    `groups viktor`
 ![](https://raw.githubusercontent.com/ViktorMarhitich/DevOps_online_Dnipro_2021Q4/main/m5/task_5.2/images/groups_viktor.png)
