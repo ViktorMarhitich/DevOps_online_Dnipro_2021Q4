@@ -127,17 +127,51 @@ To kill some process we can for example enter his PID.
 
 ## 17. Commands jobs, fg, bg, nohup. What are they for? Use the sleep, yes command to demonstrate the process control mechanism with fg, bg.
 
-
+- `jobs`: Display a list of the jobs with their status
+- `fg`: Move a background job into the foreground 
+- `bg`: Resume suspended jobs by running them as background jobs
+- The `nohup` utility is a member of the GNU Coreutils package. Its name stands for “no hup” — that is, it can protect a command from the SIGHUP signal.
 
 # Part2
 ========
 
 ## 1. Check the implementability of the most frequently used OPENSSH commands in the MS Windows operating system. (Description of the expected result of the commands + screenshots: command – result should be presented)
 
+For the connection to remote server: `ssh root@hostname-or-ip-address`
+
+To create key: `ssh-keygen`
+
+To execute some different commands on remote server `ssh user@host "command_name"`
+
+![](https://raw.githubusercontent.com/ViktorMarhitich/DevOps_online_Dnipro_2021Q4/main/m5/task_5.3/images/ssh_win.png)
+![](https://raw.githubusercontent.com/ViktorMarhitich/DevOps_online_Dnipro_2021Q4/main/m5/task_5.3/images/ssh_win_com.png)
+
 ## 2. Implement basic SSH settings to increase the security of the client-server connection (at least 
+
+- Change the default SSH port
+- Use SSH2
+- Use a whitelist and a blacklist to limit user access
+- Disable root login
+- Hide last login
+- Restrict SSH logins to specific IP addresses
+- Disable password authentication
+- Disable .rhosts
+- Disable host-based authentication
+- Set a login grace timeout
+- Set maximum startup connections
+- Disable forwarding
+- Log more information
+- Disable empty passwords
+- Set idle timeout interval
 
 ## 3. List the options for choosing keys for encryption in SSH. Implement 3 of them.
 
+A number of cryptographic algorithms can be used to generate SSH keys, including ***RSA***, ***DSA***, and ***ECDSA***.
+
 ## 4. Implement port forwarding for the SSH client from the host machine to the guest Linux virtual machine behind NAT.
 
+![](https://raw.githubusercontent.com/ViktorMarhitich/DevOps_online_Dnipro_2021Q4/main/m5/task_5.3/images/port_forward.png)
+![](https://raw.githubusercontent.com/ViktorMarhitich/DevOps_online_Dnipro_2021Q4/main/m5/task_5.3/images/port_forward_set.png)
+
 ## 5*. Intercept (capture) traffic (tcpdump, wireshark) while authorizing the remote client on the server using ssh, telnet, rlogin. Analyze the result. 
+
