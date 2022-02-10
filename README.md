@@ -40,6 +40,6 @@
 
 ### Module 8 https://github.com/ViktorMarhitich/DevOps_online_Dnipro_2021Q4/tree/main/m8
 
-### FINAL PROJECT https://github.com/ViktorMarhitich/DevOps_online_Dnipro_2021Q4/blob/main/final_project/readme.md
+### FINAL PROJECT https://github.com/ViktorMarhitich/DevOps_online_Dnipro_2021Q4/blob/main/final_project/readme.md (Will be uploaded on weekend)
 
 
